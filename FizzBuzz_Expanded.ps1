@@ -20,6 +20,7 @@ $B=5
 $D="Buzz"
 
 # Declare an array of Integers from 1 to 100 and iterate through the array
+# Note that in the commpressed example, an alias foor ForEach is %
 @(1..100) | ForEach {
 
     # Ensure the Display Variable is cleared for each iteration
